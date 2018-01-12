@@ -1,0 +1,564 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+    height: 100%;
+
+}
+.cl{
+    clear: both;
+}
+.un-left{
+    float: left;
+}
+.un-right{
+    float: right;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:1180px;
+    height:90px;
+    margin:0 auto;
+    text-align:center;
+
+}
+.photo-1{
+    height:834px;
+    background:url("img/bg_1.jpg") no-repeat center top;
+    width: 100%;
+
+}
+.top-nav img{
+    float: left;
+}
+.top-nav{
+    padding-left: 100px;
+    width: 100%;
+    position: fixed;
+    z-index:99;
+    height:90px;
+    left:0;
+    top:0;
+    background:rgba(0, 0, 0, 0.6);
+}
+.top-nav ul{
+    margin-left: 20px;
+    float: left;
+}
+.top-nav li{
+    float: left;
+    width: 100px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+
+}
+.top-nav a{
+    color: white;
+    font-size: 16px;
+}
+.top-nav a:hover{
+    color: #ee0223;
+}
+.register input:first-child{
+    margin-top: 25px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: 1px solid #fad65c;
+    background-color: rgba(0, 0, 0, 0.18);
+    color: #fad65c;
+    border-radius:20px;
+    margin-left: 10px;
+    float: left;
+}
+.register input:last-child{
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    border: 1px solid #fad65c;
+    background-color:#fad65c ;
+    color: rgba(0, 0, 0, 0.6);
+    border-radius:20px;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+}
+.register input:hover{
+    background-color: #fad65c;
+    color: rgba(0, 0, 0, 0.6);
+}
+.banner-text{
+    width: 752px;
+    height: 266px;
+    background:url("img/sprites_index.png") no-repeat;
+    margin-left: 50px;
+    margin-top: 175px;
+    position: relative;
+}
+.banner-text-2{
+    width: 419px;
+    height: 111px;
+    background:url("img/sprites_index.png")no-repeat -585px -266px;
+    position: absolute;
+    top: 378px;
+    left: 145px;
+}
+.banner{
+    position: absolute;
+    top: 183px;
+    left: 27px;
+}
+.photo-2{
+    height:820px;
+    background:url("img/bg_2.jpg") no-repeat center top;
+    width: 100%;
+}
+.nav-text{
+    width: 116px;
+    height: 112px;
+    position: absolute;
+    top: 1137px;
+    left: 40px;
+    background: url("img/sprites_index.png")no-repeat -680px -450px;
+}
+.nav-text-1{
+    width: 355px;
+    height: 190px;
+    position: absolute;
+    top: 1104px;
+    left: 178px;
+    background: url("img/sprites_index.png")no-repeat 0 -244px;
+}
+.banner-2{
+    position: absolute;
+    top: 924px;
+    left: 178px;
+}
+.nav-photo{
+    position: absolute;
+    top: 1155px;
+    left: 594px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -435px;
+}
+.nav-photo-2{
+    position: absolute;
+    top: 1275px;
+    left: 480px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -763px;
+}
+.nav-photo-3{
+    position: absolute;
+    top: 1390px;
+    left: 560px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -652px;
+}
+.nav-photo-4 {
+    position: absolute;
+    top: 1445px;
+    left: 750px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -544px;
+}
+.nav-photo-5 {
+    position: absolute;
+    top: 1395px;
+    left: 952px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -873px;
+}
+.nav-photo-6 {
+    position: absolute;
+    top: 1275px;
+    left: 1160px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -326px;
+}
+
+.nav-photo-7 {
+    position: absolute;
+    top: 1117px;
+    left: 1020px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 -211px;
+}
+.nav-photo-8 {
+    position: absolute;
+    top: 1117px;
+    left: 760px;
+    background: url("img/sprites_function_feature.png")no-repeat 0 4px;
+}
+.nav-photo ,.nav-photo-2 ,.nav-photo-3 ,.nav-photo-4 ,.nav-photo-5 ,.nav-photo-6 ,.nav-photo-7 ,.nav-photo-8{
+
+    width: 110px;
+    height: 113px;
+}
+.photo-3{
+    height:779px;
+    background:url("img/bg_3.jpg") no-repeat center top;
+    width: 100%;
+    position: relative;
+}
+.nav-text-2{
+    width: 355px;
+    height: 170px;
+    position: absolute;
+    top: 280px;
+    left: 165px;
+    background: url("img/sprites_index.png")no-repeat 0 -440px;
+}
+.nav-text-3{
+    width: 118px;
+    height: 116px;
+    position: absolute;
+    top: 293px;
+    left: 30px;
+    background: url("img/sprites_index.png")no-repeat -678px -565px;
+}
+.photo-2-1{
+    width: 355px;
+    height: 270px;
+    position: absolute;
+    top: 485px;
+    left: 510px;
+    background: url("img/sprites_game_feature.png")no-repeat 0 -3px;
+
+}
+.photo-2-2{
+    width: 418px;
+    height: 404px;
+    position: absolute;
+    top: 284px;
+    left: 520px;
+    background: url("img/sprites_game_feature2.png")no-repeat 0 -364px;
+}
+.photo-2-3{
+    width: 211px;
+    height: 252px;
+    position: absolute;
+    top: 388px;
+    left: 434px;
+    background: url("img/sprites_game_feature2.png")no-repeat -202px -41px;
+}
+.photo-2-4{
+    width: 173px;
+    height: 370px;
+    position: absolute;
+    top: 288px;
+    left: 560px;
+    background: url("img/sprites_game_feature2.png")no-repeat -425px -4px;
+}
+.photo-2-5{
+    width: 324px;
+    height: 311px;
+    position: absolute;
+    top: 231px;
+    left: 619px;
+    background: url("img/sprites_game_feature.png")no-repeat -15px -332px;
+
+}
+.photo-2-6{
+    width: 216px;
+    height: 322px;
+    position: absolute;
+    top: 200px;
+    left: 590px;
+    background: url("img/sprites_game_feature.png")no-repeat -400px -254px;
+}
+.photo-2-7{
+    width: 216px;
+    height: 136px;
+    position: absolute;
+    top: 485px;
+    left: 815px;
+    background: url("img/sprites_game_feature.png")no-repeat -425px -42px;
+}
+.photo-2-8{
+    width: 122px;
+    height: 49px;
+    position: absolute;
+    top: 652px;
+    left: 1200px;
+    background: url("img/sprites_game_feature2.png")no-repeat -11px -23px;
+
+}
+.photo-2-9{
+    width: 170px;
+    height: 126px;
+    position: absolute;
+    top: 565px;
+    right: 0;
+    background: url("img/sprites_game_feature2.png")no-repeat -16px -119px;
+
+
+}
+.banner-3 img{
+    position: absolute;
+    top: 20px;
+    right: -8px;
+
+}
+.photo-4{
+    height:818px;
+    background:url("img/bg_4.jpg") no-repeat center top;
+    width: 100%;
+    position: relative;
+
+}
+.nav-text-4-1{
+    width: 116px;
+    height: 112px;
+    position: absolute;
+    top: 287px;
+    left: 40px;
+    background: url("img/sprites_index.png")no-repeat -680px -688px;
+}
+.nav-text-4-2{
+    width: 355px;
+    height: 170px;
+    position: absolute;
+    top: 280px;
+    left: 165px;
+    background: url("img/sprites_index.png")no-repeat 0 -623px;
+}
+.nav-text-4-3{
+    width: 126px;
+    height: 73px;
+    position: absolute;
+    top: 515px;
+    left: 485px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -337px;
+}
+.nav-text-4-4{
+    width: 152px;
+    height: 75px;
+    position: absolute;
+    top: 702px;
+    left: 712px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -792px;
+}
+.nav-text-4-5{
+    width: 226px;
+    height: 147px;
+    position: absolute;
+    top: 628px;
+    right: 100px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -900px;
+}
+.nav-text-4-6{
+    width: 116px;
+    height: 143px;
+    position: absolute;
+    top: 540px;
+    right: 26px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -1081px;
+}
+.nav-text-4-7{
+    width: 156px;
+    height: 112px;
+    position: absolute;
+    top: 287px;
+    right: 5px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -623px;
+}
+.nav-text-4-8{
+    width: 156px;
+    height: 145px;
+    position: absolute;
+    top: 100px;
+    right: 75px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -450px;
+}
+.nav-text-4-9{
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 155px;
+    left: 597px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -15px;
+}
+.nav-text-4-10{
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 84px;
+    left: 736px;
+    background: url("img/sprites_life_feature.png")no-repeat 0 -150px;
+}
+.red-angle{
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    right: 253px;
+    bottom: 83px;
+
+}
+.banner-4{
+    position: absolute;
+    top: 133px;
+    right: 10px;
+}
+.photo-5 {
+    height:749px;
+    background:url("img/bg_5.jpg") no-repeat center top;
+    width: 100%;
+    position: relative;
+}
+.nav-text-5-1{
+    width: 116px;
+    height: 112px;
+    position: absolute;
+    top: 287px;
+    left: 40px;
+    background: url("img/sprites_index.png")no-repeat -680px -810px;
+}
+.nav-text-5-2{
+    width: 355px;
+    height: 170px;
+    position: absolute;
+    top: 280px;
+    left: 165px;
+    background: url("img/sprites_index.png")no-repeat 0 -819px;
+}
+.nav-text-5-3{
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 230px;
+    right: 138px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 14px;
+
+}
+.nav-text-5-4{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 50px;
+    right: 21px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 -123px;
+}
+.nav-text-5-5{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    bottom: 22px;
+    left: 450px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 -271px;
+}
+.nav-text-5-6{
+    width: 150px;
+    height: 204px;
+    position: absolute;
+    bottom: 50px;
+    left: 550px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 -400px;
+}
+.nav-text-5-7{
+    width: 174px;
+    height: 82px;
+    position: absolute;
+    bottom: 244px;
+    left: 650px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 -629px;
+}
+.nav-text-5-8{
+    width: 284px;
+    height: 82px;
+    position: absolute;
+    bottom: 150px;
+    left: 930px;
+    background: url("img/sprites_makeup_feature.png")no-repeat 0 -736px;
+}
+.banner-5{
+    position: absolute;
+    bottom: -4px;
+    right: 50px;
+}
+footer {
+    width: 100%;
+    height: 320px;
+    background-color: #33323d;
+}
+.center{
+    width: 60%;
+    height: 320px;
+    margin: 0 auto;
+}
+footer  ul, footer li {
+    display:inline-block;
+}
+footer li{
+    width:100px;
+    height:100px;
+    margin:0 5px;
+    font-size:14px;
+    text-align: center;
+}
+footer a{
+    display:block;
+    color:#7e7e7e;
+    padding-top:85px;
+    background:url("img/sprites_footer.png") no-repeat;
+}
+footer li:first-child a {
+    background-position:0 0;
+}
+footer li:first-child a:hover {
+    background-position:-100px 0;
+}
+footer li:nth-child(2) a {
+    background-position:0 -100px;
+}
+footer li:nth-child(2) a:hover{
+    background-position:-100px -100px;
+}
+footer li:nth-child(3) a {
+    background-position:0 -200px;
+}
+footer li:nth-child(3) a:hover {
+    background-position:-100px -200px;
+}
+footer li:nth-child(4) a {
+    background-position:0 -300px;
+}
+footer li:nth-child(4) a:hover{
+    background-position:-100px -300px;
+}
+footer li:nth-child(5) a {
+    background-position:0 -400px;
+}
+footer li:nth-child(5) a:hover {
+    background-position:-100px -400px;
+}
+footer li:nth-child(6) a {
+    background-position:0 -500px;
+}
+footer li:nth-child(6) a:hover {
+    background-position:-100px -500px;
+}
+footer li:nth-child(7) a {
+    background-position:0 -600px;
+}
+footer li:nth-child(7) a:hover {
+    background-position:-100px -600px;
+}
+.qq ul{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.center p{
+    font-size:12px;
+    line-height:1.8;
+    color:#9d9d9d;
+    text-align: center;
+}
+
+
